@@ -53,7 +53,7 @@ function Navbar() {
             <form>
               {/* First Row */}
               <div className="form-row">
-                <div className="input-group">
+                <div  >
                   <label htmlFor="org-name">Organisation Name<span className="star"> *</span></label>
                   <Input id="org-name" className='field-orgName'required />
                 </div>
@@ -105,7 +105,7 @@ function Navbar() {
                     </select >
                 </div>
 
-                <div className="input-group">
+                <div  >
                   <label htmlFor="org-name"><span className="star"></span></label>
                   <Input id="org-name" className='field-ReferVal' placeholder='Reference Value'required />
                 </div>
@@ -124,15 +124,15 @@ function Navbar() {
                 <form>
                   {/* First Row */}
                   <div className="form-row">
-                    <div className="input-group">
+                    <div>
                       <label htmlFor="org-name" >Address 1</label>
                       <Input id="org-name" className='field-Add1'required />
                     </div>
-                    <div className="input-group">
+                    <div>
                       <label htmlFor="org-name" className='add2'>Address 2</label>
                       <Input id="org-name" className='field-Add2'required />
                     </div>
-                    <div className="input-group">
+                    <div>
                       <label htmlFor="org-name">City</label>
                       <Input id="org-name" className='field-City' required />
                     </div>
@@ -140,7 +140,7 @@ function Navbar() {
 
                   {/* second Row */}
                   <div className="form-row">
-                    <div className="input-group">
+                    <div>
                       <label htmlFor="org-name" >State</label>
                       <Input id="org-name" className='field-state'required />
                     </div>
@@ -172,7 +172,7 @@ function Navbar() {
                         </select >
                     </div>
 
-                    <div className="input-group">
+                    <div>
                       <label htmlFor="org-name"><span className="star"></span></label>
                       <Input id="org-name" className='field-ReferVal' placeholder='Email'required />
                     </div>
@@ -182,7 +182,7 @@ function Navbar() {
                     </div>
                   </div>
                   <div className="form-row">
-                    <div class="input-group">
+                    <div>
                         <label for="org-type"></label>
                         <select id="org-type" className='dropdown-ReferType' required>
                           <option value="Select" className='field-orgName'>Phone Type</option>
@@ -191,7 +191,7 @@ function Navbar() {
                         </select >
                     </div>
 
-                    <div className="input-group">
+                    <div  >
                       <label htmlFor="org-name"><span className="star"></span></label>
                       <Input id="org-name" className='field-ReferVal' placeholder='Phone number'required />
                     </div>
