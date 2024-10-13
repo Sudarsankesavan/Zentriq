@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './component/login';
+// import App from './component/login';
 import Navbar from './component/dashboard';
 
 import reportWebVitals from './reportWebVitals';
