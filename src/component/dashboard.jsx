@@ -165,7 +165,7 @@ function Navbar() {
                   <div className="form-row">
                     <div class="input-group">
                         <label for="org-type"></label>
-                        <select id="org-type" className='dropdown-ReferType' required>
+                        <select id="org-type" className='dropdown-EmailType' required>
                           <option value="Select" className='field-orgName'>Email Type</option>
                           <option value="type1">Type 1</option>
                           <option value="type2">Type 2</option>
@@ -173,8 +173,8 @@ function Navbar() {
                     </div>
 
                     <div>
-                      <label htmlFor="org-name"><span className="star"></span></label>
-                      <Input id="org-name" className='field-ReferVal' placeholder='Email'required />
+                      <label htmlFor="org-name"></label>
+                      <Input id="org-name" className='field-Email' placeholder='Email'required />
                     </div>
                     <div>
                       <button className='button'>+Add</button>
@@ -184,7 +184,7 @@ function Navbar() {
                   <div className="form-row">
                     <div>
                         <label for="org-type"></label>
-                        <select id="org-type" className='dropdown-ReferType' required>
+                        <select id="org-type" className='dropdown-PhoneType' required>
                           <option value="Select" className='field-orgName'>Phone Type</option>
                           <option value="type1">Type 1</option>
                           <option value="type2">Type 2</option>
@@ -192,8 +192,8 @@ function Navbar() {
                     </div>
 
                     <div  >
-                      <label htmlFor="org-name"><span className="star"></span></label>
-                      <Input id="org-name" className='field-ReferVal' placeholder='Phone number'required />
+                      <label htmlFor="org-name"></label>
+                      <Input id="org-name" className='field-Phone' placeholder='Phone number'required />
                     </div>
                     <div>
                       <button className='button'>+Add</button>

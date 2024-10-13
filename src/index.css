@@ -342,3 +342,53 @@ body {
   margin-left: 85%;
   margin-top: 50px;
 }
+
+.dropdown-EmailType{
+  padding: 8px;
+  padding-top: 10px;
+  width: 245%;
+  background: #ffffff;
+  border-width: 1px;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-right: 20px;
+  border-color:#d9d9d9;
+}
+
+.dropdown-PhoneType{
+  padding: 8px;
+  padding-top: 10px;
+  width: 235%;
+  background: #ffffff;
+  border-width: 1px;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-right: 20px;
+  border-color:#d9d9d9;
+}
+
+.field-Email{
+  padding: 7px;
+  padding-top: 10px;
+  width: 100%;
+  background: #ffffff;
+  border-width: 1px;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-right: 20px;
+  border-color:#d9d9d9;
+  margin-left: 180px;
+}
+
+.field-Phone{
+  padding: 7px;
+  padding-top: 10px;
+  width: 102%;
+  background: #ffffff;
+  border-width: 1px;
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-right: 20px;
+  border-color:#d9d9d9;
+  margin-left: 175px;
+}
